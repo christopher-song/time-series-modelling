@@ -1,5 +1,5 @@
 # time-series-modelling
-This repository contains an implementation of the model described in the first two parts of "Active Portfolio Management" by Grinold and Kahn. It exists because I wanted to teach myself about quantitative modelling. The goal is to implement the risk model using freely available stock price data from `yfinance` and produce a back-tested portfolio whose performance can be compared against a benchmark. The idea is to understand how the model works, not to achieve maximum performance. 
+This repository contains an implementation of the model described in the first two parts of "Active Portfolio Management" by Grinold and Kahn. It exists because I want to teach myself about quantitative modelling and time series analysis. The goal is to implement the risk model using freely available stock price data from `yfinance` and produce a back-tested portfolio whose performance can be compared against a benchmark. The idea is to understand how the model works in theory and in practice, not to achieve maximum performance. 
 
 ## Overview
 
