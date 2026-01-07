@@ -10,7 +10,7 @@ mathematical description of what exactly is being implemented is provided in `no
 
 - `core.py` – core algorithms and computations
 - `market_data.pkl`,`securities_data.pkl` - saved copies of `yfinance` data to avoid redownloading every time
-- `X.pkl`, `f.pkl`,`F.pkl`,`D.pkl` - saved copies of $X, f, F, D$ timeseries to avoid recomputing every time the portfolio problem is formulated and solved
+- `X.pkl`, `f.pkl`,`F_mat.pkl`,`D.pkl` - saved copies of $X, f, F, D$ timeseries to avoid recomputing every time the portfolio problem is formulated and solved
 - `notes.pdf` – mathematical descriptions of the model and rationale for implementation decisions
 
 ## Status
