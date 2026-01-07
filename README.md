@@ -17,4 +17,4 @@ This project is under active development.
 
 ## Notes
 
-The emphasis correctness and clarity (basically conceptual understanding for me) rather than performance, although it runs just fine on a laptop.
+The emphasis correctness and clarity (basically conceptual understanding for me) rather than performance, although it runs just fine on an m1 macbook.
