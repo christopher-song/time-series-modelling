@@ -46,7 +46,7 @@ The emphasis is on correctness and clarity (to support my conceptual understandi
 
 ![Factor returns](figures/OLS_GLS_factor_returns.png)
 
-Mean and median residual return variance for OLS factor returns are 0.8873 and 0.9040 respectively. For GLS factor returns the corresponding figures are 0.8271 and 0.8244 respectively. This indicates that GLS factors capture modestly more of the variance in returns, as expected.
+Mean and median residual return variance for OLS factor returns are 0.8873 and 0.9040 respectively. For GLS factor returns the corresponding figures are 0.8271 and 0.8244 respectively. This indicates that GLS factors capture a bit more of the variance in returns, as expected.
 
 ### Factor vs model vs actual variances
 ![Variances](figures/variances.png)
