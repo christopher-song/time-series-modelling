@@ -25,8 +25,8 @@ The script (`core.py`) runs the entire pipeline when executed.
 
 To run:
 ```bash
-python core.py
-
+python core.py 
+```
 
 ## Notes
 
