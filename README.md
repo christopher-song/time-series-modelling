@@ -34,6 +34,7 @@ The emphasis is on correctness and clarity (to support my conceptual understandi
 ## Selected Outputs
 
 ### Condition number of the factor exposure matrix
+The illiquidity factor is dropped and the remaining five factors are used to generate all subsequent plots. Adding this factor significantly increases the condition number plotted below.
 
 ![Condition number of factor exposure matrix](figures/condition_X.png)
 
