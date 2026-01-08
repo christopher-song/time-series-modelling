@@ -10,9 +10,8 @@ mathematical description of what exactly is being implemented is provided in `no
 
 - `core.py` – core algorithms and computations
 - `SP500.csv` - list of S&P 500 tickers from [here](https://gist.github.com/ZeccaLehn/f6a2613b24c393821f81c0c1d23d4192)
-- `market_data.pkl`,`securities_data.pkl` - saved copies of `yfinance` data to avoid redownloading every time
-- `X.pkl`, `f.pkl`,`F_mat.pkl`,`D.pkl` - saved copies of $X, f, F, D$ timeseries to avoid recomputing every time the portfolio problem is formulated and solved
 - `notes.pdf` – mathematical descriptions of the model and rationale for implementation decisions
+-  The code creates `.pkl` files to cache data in order to avoid repetitive redownloading and recomputing every time it's run.
 
 ## Status
 
