@@ -18,6 +18,16 @@ mathematical description of what exactly is being implemented is provided in `no
 
 This project is under active development. 
 
+
+## Usage
+
+The script (`core.py`) runs the entire pipeline when executed.
+
+To run:
+```bash
+python core.py
+
+
 ## Notes
 
 The emphasis is on correctness and clarity (to support my conceptual understanding) rather than performance, although it runs just fine on an m1 macbook.
