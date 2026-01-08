@@ -31,3 +31,24 @@ python core.py
 ## Notes
 
 The emphasis is on correctness and clarity (to support my conceptual understanding) rather than performance, although it runs just fine on an m1 macbook.
+
+## Selected Outputs
+
+### Condition number of the factor exposure matrix
+
+![Condition number of factor exposure matrix](figures/condition_X.png)
+
+### Condition number of the factor covariance matrix
+
+![Condition number of factor covariance matrix](figures/condition_F.png)
+
+### OLS vs GLS factor returns
+
+![Factor returns](figures/OLS_GLS_factor_returns.png)
+
+Mean and median residual return variance for OLS factor returns are 0.8873 and 0.9040 respectively. For GLS factor returns the corresponding figures are 0.8271 and 0.8244 respectively. This indicates that GLS factors capture modestly more of the variance in returns, as expected.
+
+### Factor vs model vs actual variances
+![Variances](figures/variances.png)
+
+Factors alone explain only a small portion of the variances of the returns. Adding the idiosyncratic variances results in a much better match with the actual historical variances of the returns. This is plotted for selected securities above.
